@@ -1,0 +1,15 @@
+{
+  "name": "Victoria 3 industry revamp",
+  "id": "industry revamp",
+  "version": "0.1",
+  "supported_game_version": "1.7.*",
+  "short_description": "Industry expansion",
+  "tags": ["Economy and Buildings", "Total Conversion", "Expansion", "Technologies"],
+  "relationships": [],
+  "game_custom_data": {
+    "multiplayer_synchronized": true,
+    "replace_paths": [
+      "common/history/buildings"
+    ]
+  }
+}

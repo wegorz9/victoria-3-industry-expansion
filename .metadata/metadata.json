@@ -9,8 +9,16 @@
   "game_custom_data": {
     "multiplayer_synchronized": true,
     "replace_paths": [
-      "common/history/buildings",
-      "common/goods"
+      "common/buildings",
+      "common/building_groups",
+      "common/history/trade_routes",
+      "common/goods",
+      "common/production_method_groups",
+      "common/production_methods",
+      "common/modifier_type_definitions",
+      "common/mobilization_options",
+      "common/mobilization_option_groups",
+      "common/ai_strategies"
     ]
   }
 }

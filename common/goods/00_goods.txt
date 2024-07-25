@@ -221,10 +221,11 @@ coal_gas = {
 	category = staple
 	local = yes
 	
-	prestige_factor = 5
+	prestige_factor = 2.5
 	
 	consumption_tax_cost = 200
 }
+
 ##############
 # INDUSTRIAL #
 ##############
@@ -288,31 +289,12 @@ coal = {
 	consumption_tax_cost = 200
 }
 
-iron_ore = {
+iron = {
 	texture = "gfx/interface/icons/goods_icons/iron.dds"
-	cost = 20
+	cost = 40
 	category = industrial
 	
 	prestige_factor = 5
-	
-	traded_quantity = 15
-	
-}
-
-crude_steel = {
-	texture = "gfx/interface/icons/goods_icons/iron.dds"
-	cost = 30
-	category = industrial
-	
-	prestige_factor = 5
-}
-
-good_steel = {
-	texture = "gfx/interface/icons/goods_icons/steel.dds"
-	cost = 60
-	category = industrial
-	
-	prestige_factor = 10
 }
 
 lead = {
@@ -321,13 +303,6 @@ lead = {
 	category = industrial
 	
 	prestige_factor = 5
-}
-lead_ore = {
-	texture = "gfx/interface/icons/goods_icons/lead.dds"
-	cost = 20
-	category = industrial
-	
-	prestige_factor = 2.5
 }
 
 hardwood = {
@@ -367,6 +342,14 @@ engines = {
 	convoy_cost_multiplier = 1.5
 }
 
+steel = {
+	texture = "gfx/interface/icons/goods_icons/steel.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+}
+
 glass = {
 	texture = "gfx/interface/icons/goods_icons/glass.dds"
 	cost = 40
@@ -387,17 +370,18 @@ fertilizer = {
 
 light_tools = {
 	texture = "gfx/interface/icons/goods_icons/tools.dds"
-	cost = 40
+	cost = 25
 	category = industrial
 	
 	prestige_factor = 5
 }
+
 machine_parts = {
 	texture = "gfx/interface/icons/goods_icons/tools.dds"
 	cost = 70
 	category = industrial
 	
-	prestige_factor = 10
+	prestige_factor = 7.5
 }
 
 explosives = {

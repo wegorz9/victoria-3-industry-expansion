@@ -1,6 +1,6 @@
 {
   "name": "Victoria 3 industry revamp",
-  "id": "industry revamp",
+  "id": "V3IR",
   "version": "0.1",
   "supported_game_version": "1.7.*",
   "short_description": "Industry expansion",
@@ -9,7 +9,8 @@
   "game_custom_data": {
     "multiplayer_synchronized": true,
     "replace_paths": [
-      "common/history/buildings"
+      "common/history/buildings",
+      "common/goods"
     ]
   }
 }

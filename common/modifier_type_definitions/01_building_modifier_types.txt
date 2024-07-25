@@ -1280,7 +1280,7 @@ goods_output_coal_add={
 	}
 }
 
-goods_output_iron_add={
+goods_output_iron_ore_add={
 	decimals=1
 	color=good
 	game_data={
@@ -1440,7 +1440,7 @@ goods_input_wood_add={
 	}
 }
 
-goods_input_iron_add={
+goods_input_iron_ore_add={
 	decimals=1
 	color=bad
 	game_data={

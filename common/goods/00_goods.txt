@@ -289,11 +289,12 @@ coal = {
 	consumption_tax_cost = 200
 }
 
-iron = {
+iron_ore = {
 	texture = "gfx/interface/icons/goods_icons/iron.dds"
-	cost = 40
+	cost = 15
 	category = industrial
 	
+	traded_quantity = 15
 	prestige_factor = 5
 }
 

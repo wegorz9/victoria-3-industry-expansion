@@ -87,7 +87,7 @@ pm_cannery = {
 			# input goods
 			goods_input_grain_add = -20		# x20 = -400
 			goods_input_meat_add = 20		# x30 =  600
-			goods_input_iron_add = 10		# x40 =  400
+			goods_input_crude_steel_add = 10		# x40 =  400
 			
 			# output goods
 			goods_output_groceries_add = 30	# x30 =  900
@@ -112,7 +112,7 @@ pm_cannery_fish = {
 			# input goods
 			goods_input_grain_add = -20		# x20 = -400
 			goods_input_fish_add = 30		# x20 =  600
-			goods_input_iron_add = 10		# x40 =  400
+			goods_input_crude_steel_add = 10		# x40 =  400
 			
 			# output goods
 			goods_output_groceries_add = 30	# x30 =  900
@@ -139,7 +139,8 @@ pm_vacuum_canning = {
 			goods_input_grain_add = -30		# x20 = -600
 			goods_input_fish_add = 30		# x20 = 600
 			goods_input_meat_add = 20		# x30 = 600
-			goods_input_iron_add = 10		# x40 =  400
+			goods_input_crude_steel_add = 10		# x40 =  400
+			goods_input_good_steel_add = 10	
 			goods_input_oil_add = 5 			# x40 =  200
 			
 			# output goods
@@ -172,7 +173,7 @@ pm_vacuum_canning_principle_3 = {
 			goods_input_grain_add = -30		# x20 = -600
 			goods_input_fish_add = 30		# x20 = 600
 			goods_input_meat_add = 20		# x30 = 600
-			goods_input_iron_add = 10		# x40 =  400
+			goods_input_crude_steel_add = 10		# x40 =  400
 			goods_input_oil_add = 5 			# x40 =  200
 			
 			# output goods
@@ -946,10 +947,12 @@ pm_pig_iron = {
 		workforce_scaled = {
 			# input goods
 			goods_input_wood_add = 30
-			goods_input_iron_add = 20
+			goods_input_crude_steel_add = 20
+			goods_input_good_steel_add = 10
 			
 			# output goods
 			goods_output_light_tools_add = 60
+			goods_output_machine_parts_add = 10
 		}
 
 		level_scaled = {
@@ -969,10 +972,13 @@ pm_steel = {
 		workforce_scaled = {
 			# input goods
 			goods_input_wood_add = 30
-			goods_input_steel_add = 20
+			goods_input_crude_steel_add = 30
+			goods_input_good_steel_add = 40
 			
 			# output goods
-			goods_output_light_tools_add = 80
+			goods_output_light_tools_add = 60
+			goods_output_machine_parts_add = 40
+
 		}
 
 		level_scaled = {
@@ -984,29 +990,29 @@ pm_steel = {
 	}
 }
 
-pm_rubber_grips = {
-	texture = "gfx/interface/icons/production_method_icons/steel_tools.dds"
-	unlocking_technologies = {
-		vulcanization
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_rubber_add = 10
-			goods_input_steel_add = 30
+# pm_rubber_grips = {
+# 	texture = "gfx/interface/icons/production_method_icons/steel_tools.dds"
+# 	unlocking_technologies = {
+# 		vulcanization
+# 	}
+# 	building_modifiers = {
+# 		workforce_scaled = {
+# 			# input goods
+# 			goods_input_rubber_add = 10
+# 			goods_input_good_steel_add = 30
 			
-			# output goods
-			goods_output_light_tools_add = 110
-		}
+# 			# output goods
+# 			goods_output_light_tools_add = 110
+# 		}
 
-		level_scaled = {
-			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
-		}
-	}
-}
+# 		level_scaled = {
+# 			building_employment_shopkeepers_add = 500
+# 			building_employment_laborers_add = 3000
+# 			building_employment_machinists_add = 1000
+# 			building_employment_engineers_add = 500
+# 		}
+# 	}
+# }
 
 pm_watertube_boiler_building_tooling_workshops = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
@@ -1247,8 +1253,7 @@ pm_artificial_fertilizers = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_sulfur_add = 30
-			goods_input_iron_add = 10
+			goods_input_chemical_reagents_add = 10
 
 			# output goods
 			goods_output_fertilizer_add = 90
@@ -1279,7 +1284,7 @@ pm_improved_fertilizer = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_sulfur_add = 30
-			goods_input_iron_add = 30
+			goods_input_chemical_reagents_add = 30
 
 			# output goods
 			goods_output_fertilizer_add = 140
@@ -1311,8 +1316,8 @@ pm_nitrogen_fixation = {
 		workforce_scaled = {
 			# input goods
 			goods_input_sulfur_add = 40
-			goods_input_oil_add = 20
-			goods_input_iron_add = 30
+			goods_input_chemical_reagents_add = 20
+			goods_input_crude_steel_add = 30
 
 			# output goods
 			goods_output_fertilizer_add = 200
@@ -1533,7 +1538,7 @@ pm_blister_steel_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 40
+			goods_input_iron_ore_add = 40
 			goods_input_coal_add = 30
 			
 			# output goods
@@ -1565,7 +1570,7 @@ pm_bessemer_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 60
+			goods_input_iron_ore_add = 60
 			goods_input_coal_add = 30
 			
 			# output goods
@@ -1598,7 +1603,7 @@ pm_open_hearth_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 90
+			goods_input_iron_ore_add = 90
 			goods_input_coal_add = 30
 			
 			# output goods
@@ -1631,7 +1636,7 @@ pm_electric_arc_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 100
+			goods_input_iron_ore_add = 100
 			goods_input_coal_add = 30 
 			goods_input_electricity_add = 30
 			
@@ -1703,6 +1708,30 @@ pm_rotary_valve_engine_building_steel_mills = {
 	}
 }
 
+pm_experimental_steam_engines = {
+	texture = "gfx/interface/icons/production_method_icons/steamworks.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_crude_steel_add = 60
+			
+			goods_output_engines_add = 15
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 500
+		}
+	}
+}
 pm_steam_engines = {
 	texture = "gfx/interface/icons/production_method_icons/steamworks.dds"
 	
@@ -1714,9 +1743,10 @@ pm_steam_engines = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 30
+			goods_input_good_steel_add = 25
+			goods_input_crude_steel_add = 15
 			
-			goods_output_engines_add = 40
+			goods_output_engines_add = 50
 		}
 
 		level_scaled = {
@@ -1744,7 +1774,8 @@ pm_electric_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 40
+			goods_input_good_steel_add = 40
+			goods_input_crude_steel_add = 5
 			goods_input_electricity_add = 30
 			
 			# output goods
@@ -1778,11 +1809,11 @@ pm_diesel_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 50
+			goods_input_good_steel_add = 50
 			goods_input_oil_add = 50
 			
 			# output goods
-			goods_output_engines_add = 120
+			goods_output_engines_add = 150
 		}
 
 		level_scaled = {
@@ -1919,6 +1950,7 @@ pm_basic_shipbuilding = {
 		workforce_scaled = {
 			# input goods
 			goods_input_wood_add = 40
+			goods_input_crude_steel_add = 1
 			goods_input_fabric_add = 20
 			
 			# output goods
@@ -1948,6 +1980,8 @@ pm_complex_shipbuilding = {
 			goods_input_hardwood_add = 20
 			goods_input_fabric_add = 20
 			goods_input_engines_add = 5
+			goods_input_crude_steel_add = 15
+			goods_input_good_steel_add = 1
 			
 			# output goods
 			goods_output_clippers_add = 70
@@ -1979,12 +2013,13 @@ pm_metal_shipbuilding = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 30
+			goods_input_good_steel_add = 10
+			goods_input_crude_steel_add = 60
 			goods_input_coal_add = 10
 			goods_input_engines_add = 10
 			
 			# output goods
-			goods_output_steamers_add = 65
+			goods_output_steamers_add = 70
 		}
 
 		level_scaled = {
@@ -2013,7 +2048,8 @@ pm_arc_welding_shipbuilding = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 30
+			goods_input_good_steel_add = 20
+			goods_input_crude_steel_add = 20
 			goods_input_electricity_add = 30
 			goods_input_engines_add = 10
 			
@@ -2045,7 +2081,7 @@ pm_military_shipbuilding_wooden = {
 			#input goods
 			goods_input_hardwood_add = 20
 			goods_input_fabric_add = 20
-			goods_input_iron_add = 10
+			goods_input_crude_steel_add = 10
 			# output goods
 			goods_output_manowars_add = 35
 		}
@@ -2073,7 +2109,8 @@ pm_military_shipbuilding_wooden_2 = {
 			goods_input_hardwood_add = 30
 			goods_input_fabric_add = 10
 			goods_input_engines_add = 5
-			goods_input_iron_add = 10
+			goods_input_crude_steel_add = 10
+			goods_input_good_steel_add = 5
 			# output goods
 			goods_output_manowars_add = 45
 		}
@@ -2097,7 +2134,8 @@ pm_military_shipbuilding_steam = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_steel_add = 40
+			goods_input_good_steel_add = 40
+			goods_input_crude_steel_add = 20
 			goods_input_coal_add = 20
 			goods_input_engines_add = 10
 			# output goods
@@ -2123,7 +2161,7 @@ pm_military_shipbuilding_steam_2 = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input
-			goods_input_steel_add = 50
+			goods_input_good_steel_add = 50
 			goods_input_electricity_add = 35
 			goods_input_engines_add = 15
 
@@ -2182,7 +2220,7 @@ pm_tank_production = {
 		workforce_scaled = {
 			# input goods
 			goods_input_engines_add = 10
-			goods_input_steel_add = 20
+			goods_input_good_steel_add = 20
 			goods_input_oil_add = 10
 			goods_output_aeroplanes_add = -10
 
@@ -2201,7 +2239,7 @@ pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_iron_add = 20
+			goods_input_crude_steel_add = 20
 			goods_input_rubber_add = 20
 			goods_input_lead_add = 20
 			goods_input_light_tools_add = 10
@@ -2248,7 +2286,7 @@ pm_muskets = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 10
+			goods_input_crude_steel_add = 10
 			goods_input_hardwood_add = 10
 			
 			# output goods
@@ -2274,7 +2312,8 @@ pm_rifles = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 10
+			goods_input_good_steel_add = 10
+			goods_input_crude_steel_add = 20
 			goods_input_hardwood_add = 10
 			goods_input_light_tools_add = 5
 			
@@ -2296,14 +2335,16 @@ pm_repeaters = {
 	
 	unlocking_technologies = {
 		repeaters
+		#guncotton
 	}
 	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 20
+			goods_input_good_steel_add = 35
 			goods_input_hardwood_add = 10
 			goods_input_light_tools_add = 10
+			goods_input_crude_steel_add = 35
 			
 			# output goods
 			goods_output_small_arms_add = 70
@@ -2324,12 +2365,13 @@ pm_bolt_action_rifles = {
 	
 	unlocking_technologies = {
 		bolt_action_rifles
+		#guncotton
 	}
 	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 20
+			goods_input_good_steel_add = 40
 			goods_input_hardwood_add = 10
 			goods_input_light_tools_add = 20
 			goods_input_oil_add = 10
@@ -2362,7 +2404,7 @@ pm_cannons = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 15
+			goods_input_crude_steel_add = 15
 			goods_input_hardwood_add = 10
 
 			# output goods
@@ -2387,7 +2429,8 @@ pm_smoothbores = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 25
+			goods_input_crude_steel_add = 25
+			goods_input_good_steel_add = 10
 			goods_input_hardwood_add = 15
 
 			# output goods
@@ -2413,7 +2456,8 @@ pm_breech_loaders = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 25
+			goods_input_good_steel_add = 30
+			goods_input_crude_steel_add = 25
 			goods_input_hardwood_add = 10
 			goods_input_light_tools_add = 10
 
@@ -2440,9 +2484,9 @@ pm_recoiled_barrels = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 40
+			goods_input_good_steel_add = 40
 			goods_input_light_tools_add = 20
-			goods_input_oil_add = 10
+			goods_input_oil_add = 5
 
 			# output goods
 			goods_output_artillery_add = 90

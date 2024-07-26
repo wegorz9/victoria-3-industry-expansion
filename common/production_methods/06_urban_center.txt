@@ -43,7 +43,7 @@ pm_covered_markets = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_glass_add = 2
-			goods_input_steel_add = 1
+			goods_input_good_steel_add = 1
 			goods_output_services_add = 25
 		}
 
@@ -64,7 +64,7 @@ pm_arcades = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_glass_add = 2
-			goods_input_steel_add = 2
+			goods_input_good_steel_add = 2
 			goods_input_electricity_add = 1
 			goods_output_services_add = 30
 		}

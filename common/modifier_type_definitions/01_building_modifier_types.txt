@@ -1048,14 +1048,6 @@ goods_output_glass_add={
 	}
 }
 
-goods_output_steel_add={
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
 goods_output_liquor_add={
 	decimals=1
 	color=good
@@ -1424,6 +1416,87 @@ goods_output_transportation_add={
 	}
 }
 
+goods_output_chemical_reagents_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_chemical_reagents_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_machine_parts_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_machine_parts_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_good_steel_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_good_steel_mult={
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_good_steel_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_crude_steel_mult={
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_crude_steel_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_crude_steel_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
 goods_input_fabric_add={
 	decimals=1
 	color=bad
@@ -1569,14 +1642,6 @@ goods_input_sulfur_add={
 }
 
 goods_input_oil_add={
-	decimals=1
-	color=bad
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_input_steel_add={
 	decimals=1
 	color=bad
 	game_data={

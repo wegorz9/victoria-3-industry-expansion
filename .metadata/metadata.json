@@ -18,7 +18,10 @@
       "common/modifier_type_definitions",
       "common/mobilization_options",
       "common/mobilization_option_groups",
-      "common/ai_strategies"
+      "common/ai_strategies",
+      "common/combat_unit_types",
+      "events",
+      "gui/good_texticons.gui"
     ]
   }
 }

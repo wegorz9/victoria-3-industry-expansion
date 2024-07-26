@@ -343,12 +343,19 @@ engines = {
 	convoy_cost_multiplier = 1.5
 }
 
-steel = {
+good_steel = {
 	texture = "gfx/interface/icons/goods_icons/steel.dds"
-	cost = 50
+	cost = 80
 	category = industrial
 	
-	prestige_factor = 5
+	prestige_factor = 10
+}
+crude_steel = {
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 10
 }
 
 glass = {
@@ -369,12 +376,23 @@ fertilizer = {
 	traded_quantity = 7.5
 }
 
+
+chemical_reagents = {
+	texture = "gfx/interface/icons/goods_icons/fertilizer.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 7.5
+	
+	traded_quantity = 10
+}
+
 light_tools = {
 	texture = "gfx/interface/icons/goods_icons/tools.dds"
 	cost = 25
 	category = industrial
 	
-	prestige_factor = 5
+	prestige_factor = 10
 }
 
 machine_parts = {
@@ -382,7 +400,7 @@ machine_parts = {
 	cost = 70
 	category = industrial
 	
-	prestige_factor = 7.5
+	prestige_factor = 20
 }
 
 explosives = {

@@ -1542,7 +1542,8 @@ pm_blister_steel_process = {
 			goods_input_coal_add = 30
 			
 			# output goods
-			goods_output_steel_add = 65
+			goods_output_crude_steel_add = 60
+			goods_output_good_steel_add = 2.5
 		}
 
 		level_scaled = {
@@ -1574,7 +1575,8 @@ pm_bessemer_process = {
 			goods_input_coal_add = 30
 			
 			# output goods
-			goods_output_steel_add = 90
+			goods_output_crude_steel_add = 70
+			goods_output_good_steel_add = 20
 		}
 
 		level_scaled = {
@@ -1607,7 +1609,8 @@ pm_open_hearth_process = {
 			goods_input_coal_add = 30
 			
 			# output goods
-			goods_output_steel_add = 120
+			goods_output_good_steel_add = 60
+			goods_output_crude_steel_add = 60
 		}
 
 		level_scaled = {
@@ -1641,7 +1644,8 @@ pm_electric_arc_process = {
 			goods_input_electricity_add = 30
 			
 			# output goods
-			goods_output_steel_add = 150
+			goods_output_good_steel_add = 80
+			goods_output_crude_steel_add = 60
 		}
 
 		level_scaled = {

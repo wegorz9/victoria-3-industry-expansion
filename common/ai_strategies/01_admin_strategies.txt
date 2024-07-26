@@ -25,7 +25,7 @@
 				has_technology_researched = intensive_agriculture
 			}
 		}
-		tools = { 
+		light_tools = { 
 			stance = wants_high_supply
 			trigger = {
 				has_technology_researched = intensive_agriculture
@@ -204,9 +204,9 @@ ai_strategy_resource_expansion = {
 				has_technology_researched = nitroglycerin
 			}			
 		}	
-		tools = { stance = wants_high_supply }
+		light_tools = { stance = wants_high_supply }
 		coal = { stance = wants_export }
-		iron = { stance = wants_export }
+		iron_ore = { stance = wants_export }
 		oil = { stance = wants_export }
 		lead = { stance = wants_export }
 		wood = { stance = wants_export }
@@ -315,10 +315,12 @@ ai_strategy_industrial_expansion = {
 		}
 		dye = { stance = wants_high_supply }
 		silk = { stance = wants_high_supply }
-		tools = { stance = wants_high_supply }
+		light_tools = { stance = wants_high_supply }
+		machine_parts = { stance = wants_high_supply }
 		coal = { stance = wants_high_supply }
-		iron = { stance = wants_high_supply }
-		steel = { stance = wants_high_supply }
+		iron_ore = { stance = wants_high_supply }
+		crude_steel = { stance = wants_high_supply }
+		good_steel = { stance = wants_high_supply }
 		lead = { stance = wants_high_supply }
 		sulfur = { stance = wants_high_supply }
 		wood = { stance = wants_high_supply }
@@ -546,9 +548,9 @@ ai_strategy_colonial_extraction = {
                 has_technology_researched = nitroglycerin
             }           
         }
-        tools = { stance = wants_high_supply }
+        light_tools = { stance = wants_high_supply }
         coal = { stance = wants_export }
-        iron = { stance = wants_export }
+        iron_ore = { stance = wants_export }
         oil = { stance = wants_export }
         lead = { stance = wants_export }
         wood = { stance = wants_export }

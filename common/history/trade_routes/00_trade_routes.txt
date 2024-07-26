@@ -269,7 +269,7 @@
 	# Peru
 	c:NPU ?= {
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 2
 			direction = import
 			target = c:CHL.market
@@ -524,7 +524,7 @@
 			target = c:GBR.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 1
 			direction = import
 			target = c:GBR.market
@@ -671,7 +671,7 @@
 			target = c:EGY.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 1
 			direction = import
 			target = c:MOR.market
@@ -765,7 +765,7 @@
 			target = c:SIC.market
 		}		
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 3
 			direction = import
 			target = c:AUS.market
@@ -1080,7 +1080,7 @@
 	# Sweden 	
 	c:SWE ?= {	
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 8
 			direction = import
 			target = c:PRU.market
@@ -1248,7 +1248,7 @@
 			target = c:NET.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 11
 			direction = import
 			target = c:GBR.market
@@ -1328,7 +1328,7 @@
 			target = c:GBR.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 1
 			direction = import
 			target = c:CHI.market
@@ -1404,7 +1404,7 @@
 			target = c:SWE.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 4
 			direction = export
 			target = c:SIC.market
@@ -1545,7 +1545,7 @@
 			target = c:FRA.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 3
 			direction = export
 			target = c:RUS.market
@@ -1581,7 +1581,7 @@
 			target = c:FRA.market
 		}
 		create_trade_route = {
-			goods = tools
+			goods = light_tools
 			level = 2
 			direction = export
 			target = c:FRA.market
@@ -1675,7 +1675,7 @@
 			target = c:GBR.market
 		}
 		create_trade_route = {
-			goods = steel
+			goods = good_steel
 			level = 6
 			direction = export
 			target = c:FRA.market

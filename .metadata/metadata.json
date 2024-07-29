@@ -21,7 +21,8 @@
       "common/ai_strategies",
       "common/combat_unit_types",
       "events",
-      "gui/good_texticons.gui"
+      "gui/good_texticons.gui",
+      "gfx/interface/icons/goods_icons"
     ]
   }
 }

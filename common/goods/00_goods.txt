@@ -216,7 +216,7 @@ electricity = {
 }
 
 coal_gas = {
-	texture = "gfx/interface/icons/goods_icons/coal.dds"
+	texture = "gfx/interface/icons/goods_icons/coal_gas.dds"
 	cost = 20
 	category = staple
 	local = yes
@@ -290,7 +290,7 @@ coal = {
 }
 
 iron_ore = {
-	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	texture = "gfx/interface/icons/goods_icons/iron_ore.dds"
 	cost = 15
 	category = industrial
 	
@@ -378,7 +378,7 @@ fertilizer = {
 
 
 chemical_reagents = {
-	texture = "gfx/interface/icons/goods_icons/fertilizer.dds"
+	texture = "gfx/interface/icons/goods_icons/chemical_reagents.dds"
 	cost = 50
 	category = industrial
 	
@@ -396,7 +396,7 @@ light_tools = {
 }
 
 machine_parts = {
-	texture = "gfx/interface/icons/goods_icons/tools.dds"
+	texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
 	cost = 70
 	category = industrial
 	

@@ -144,6 +144,7 @@ pm_steam_threshers = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods													
+			goods_input_machine_parts_add = 2.5
 			goods_input_light_tools_add = 2	
 			goods_input_coal_add = 1
 		}
@@ -169,6 +170,7 @@ pm_tractors = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods								
+			goods_input_machine_parts_add = 2
 			goods_input_coal_add = 2 
 			goods_input_engines_add = 1
 		}
@@ -194,6 +196,7 @@ pm_compression_ignition_tractors = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods								
+			goods_input_machine_parts_add = 2
 			goods_input_oil_add = 2
 			goods_input_engines_add = 1
 		}
@@ -343,6 +346,7 @@ pm_steam_threshers_building_rice_farm = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods													
+			goods_input_machine_parts_add = 5
 			goods_input_light_tools_add = 4	
 			goods_input_coal_add = 2
 		}
@@ -431,7 +435,7 @@ pm_butchering_tools = {
 	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"			
 	building_modifiers = {				
 		workforce_scaled = {
-			goods_input_light_tools_add = 5
+			goods_input_light_tools_add = 10
 			goods_output_meat_add = 20
 		}
 
@@ -457,6 +461,7 @@ pm_slaughterhouses = {
 	}	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_machine_parts_add = 5
 			goods_input_light_tools_add = 10
 			goods_output_meat_add = 30
 		}
@@ -483,6 +488,7 @@ pm_mechanized_slaughtering = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_machine_parts_add = 10
 			goods_input_light_tools_add = 10
 			goods_input_coal_add = 5
 			goods_output_meat_add = 45
@@ -549,6 +555,9 @@ pm_refrigerated_storage_building_livestock_ranch = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 3
+			goods_input_coal_gas_add = 5
+			goods_input_machine_parts_add = 1
+
 		}
 
 		level_scaled = {
@@ -570,6 +579,8 @@ pm_refrigerated_rail_cars_building_livestock_ranch = {
 		workforce_scaled = {
 			goods_input_electricity_add = 3
 			goods_input_transportation_add = 2
+			goods_input_machine_parts_add = 5
+
 		}
 
 		level_scaled = {

@@ -129,6 +129,15 @@ texticon = {
 }
 
 texticon = {
+	icon = coal_gas
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/coal_gas.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
 	icon = wood
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/wood.dds"
@@ -291,7 +300,7 @@ texticon = {
 texticon = {
 	icon = iron_ore
 	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/iron.dds"
+		texture = "gfx/interface/icons/goods_icons/iron_ore.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18
@@ -381,7 +390,7 @@ texticon = {
 texticon = {
 	icon = machine_parts
 	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/tools.dds"
+		texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18
@@ -411,7 +420,7 @@ texticon = {
 texticon = {
 	icon = chemical_reagents
 	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/fertilizer.dds"
+		texture = "gfx/interface/icons/goods_icons/chemical_reagents.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18

@@ -83,12 +83,6 @@ pm_no_street_lighting = {
 	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
 
 	city_lights_color_index = 0	# Needs to match city_graphics_data.settings color array
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_output_coal_gas_add = 2
-		}
-	}
 }
 
 pm_gas_streetlights = {
@@ -101,7 +95,7 @@ pm_gas_streetlights = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_coal_add = 1
+			goods_input_coal_gas_add = 1
 
 			goods_output_services_add = 2
 		}

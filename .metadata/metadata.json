@@ -4,25 +4,9 @@
   "version": "0.1",
   "supported_game_version": "1.7.*",
   "short_description": "Industry expansion",
-  "tags": ["Economy and Buildings", "Total Conversion", "Expansion", "Technologies"],
+  "tags": ["Economy and Buildings", "Expansion", "Technologies"],
   "relationships": [],
   "game_custom_data": {
-    "multiplayer_synchronized": true,
-    "replace_paths": [
-      "common/buildings",
-      "common/building_groups",
-      "common/history/trade_routes",
-      "common/goods",
-      "common/production_method_groups",
-      "common/production_methods",
-      "common/modifier_type_definitions",
-      "common/mobilization_options",
-      "common/mobilization_option_groups",
-      "common/ai_strategies",
-      "common/combat_unit_types",
-      "events",
-      "gui/good_texticons.gui",
-      "gfx/interface/icons/goods_icons"
-    ]
+    "multiplayer_synchronized": true
   }
 }

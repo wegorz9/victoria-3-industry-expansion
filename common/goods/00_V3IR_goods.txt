@@ -1,0 +1,80 @@
+﻿# goods types, organized by category
+
+# prestige_factor							Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard. x2 awarded for every rank above the minimum.
+
+############
+# MILITARY #
+############
+
+##########
+# STAPLE #
+##########
+
+coal_gas = {
+	texture = "common/V3IR_good_icons/coal_gas.dds"
+	cost = 20
+	category = staple
+	local = yes
+	
+	prestige_factor = 2.5
+	
+	consumption_tax_cost = 200
+}
+
+##############
+# INDUSTRIAL #
+##############
+
+iron_ore = {
+	texture = "common/V3IR_good_icons/iron_ore.dds"
+	cost = 15
+	category = industrial
+	
+	traded_quantity = 15
+	prestige_factor = 5
+}
+
+good_steel = {
+	texture = "gfx/interface/icons/goods_icons/steel.dds"
+	cost = 80
+	category = industrial
+	
+	prestige_factor = 10
+}
+crude_steel = {
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 10
+}
+
+chemical_reagents = {
+	texture = "common/V3IR_good_icons/chemical_reagents.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 7.5
+	
+	traded_quantity = 10
+}
+
+light_tools = {
+	texture = "gfx/interface/icons/goods_icons/tools.dds"
+	cost = 25
+	category = industrial
+	
+	prestige_factor = 10
+}
+
+machine_parts = {
+	texture = "common/V3IR_good_icons/machine_parts.dds"
+	cost = 70
+	category = industrial
+	
+	prestige_factor = 20
+}
+
+##########
+# LUXURY #
+##########

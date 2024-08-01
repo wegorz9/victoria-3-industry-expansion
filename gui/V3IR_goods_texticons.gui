@@ -17,7 +17,51 @@ texticon = {
 		fontsize = 18
 	}
 }
-
+texticon = {
+	icon = aluminum
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/iron.dds"
+		size = { 25 25 }
+		offset = { 7 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = copper
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/iron.dds"
+		size = { 25 25 }
+		offset = { 7 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = copper_ore
+	iconsize = {
+		texture = "common/V3IR_good_icons/iron_ore.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = alumina
+	iconsize = {
+		texture = "common/V3IR_good_icons/iron_ore.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = lead_ore
+	iconsize = {
+		texture = "common/V3IR_good_icons/iron_ore.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 texticon = {
 	icon = crude_steel
 	iconsize = {

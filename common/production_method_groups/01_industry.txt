@@ -365,3 +365,67 @@ pmg_automation_building_gasworks = {
 		pm_rotary_valve_engine_building_gasworks
 	}
 }
+
+pmg_lead_refining_procces= {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_lead_refining
+		pm_lead_parkes_process
+		pm_betterton-kroll_process
+		pm_betts_process
+	}
+}
+pmg_steel_recycling_procces= {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_steel_recycling
+		pm_basic_steel_recycling
+		pm_improved_steel_recycling
+	}
+}
+pmg_automation_building_metal_refinery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_automation_disabled
+		pm_watertube_boiler_building_metal_refinery
+		pm_rotary_valve_engine_building_metal_refinery
+	}
+}
+
+pmg_aluminum_refining_procces = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_wohlers_method
+		pm_sainte-claire_method
+		pm_hall-heroult_procces
+	}
+}
+pmg_copper_refining_procces = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_copper_refining
+		pm_copper_parkes_process
+		pm_copper_cementation
+		pm_copper_electrolysis
+	}
+}
+pmg_automation_building_rare_metal_refinery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_automation_disabled
+		pm_watertube_boiler_building_rare_metal_refinery
+		pm_rotary_valve_engine_building_rare_metal_refinery
+	}
+}

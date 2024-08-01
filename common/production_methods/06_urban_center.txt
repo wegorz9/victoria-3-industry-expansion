@@ -124,6 +124,7 @@ pm_electric_streetlights = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 3
+			goods_input_copper_add = 3
 			goods_output_services_add = 10
 		}
 
@@ -404,6 +405,8 @@ pm_hydroelectric_plant = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 10
+			goods_input_copper_add = 20
+			goods_input_machine_parts_add = 20
 			goods_output_electricity_add = 50
 		}
 
@@ -432,6 +435,8 @@ pm_coal-fired_plant = {
 		workforce_scaled = {
 			goods_input_engines_add = 15
 			goods_input_coal_add = 30
+			goods_input_copper_add = 30
+			goods_input_machine_parts_add = 30
 			goods_output_electricity_add = 100
 		}
 
@@ -460,6 +465,8 @@ pm_oil-fired_plant = {
 		workforce_scaled = {
 			goods_input_engines_add = 20
 			goods_input_oil_add = 40
+			goods_input_copper_add = 30
+			goods_input_machine_parts_add = 30
 			goods_output_electricity_add = 150
 		}
 

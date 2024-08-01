@@ -33,6 +33,48 @@ iron_ore = {
 	traded_quantity = 15
 	prestige_factor = 5
 }
+alumina = {
+	texture = "common/V3IR_good_icons/iron_ore.dds"
+	cost = 15
+	category = industrial
+	
+	traded_quantity = 15
+	prestige_factor = 5
+}
+
+lead_ore = {
+	texture = "common/V3IR_good_icons/iron_ore.dds"
+	cost = 15
+	category = industrial
+	
+	traded_quantity = 15
+	prestige_factor = 5
+}
+
+copper_ore = {
+	texture = "common/V3IR_good_icons/iron_ore.dds"
+	cost = 15
+	category = industrial
+	
+	traded_quantity = 15
+	prestige_factor = 5
+}
+
+copper = {
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 70
+	category = industrial
+	
+	prestige_factor = 10
+}
+
+aluminum = {
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 70
+	category = industrial
+	
+	prestige_factor = 10
+}
 
 good_steel = {
 	texture = "gfx/interface/icons/goods_icons/steel.dds"
@@ -41,12 +83,13 @@ good_steel = {
 	
 	prestige_factor = 10
 }
+
 crude_steel = {
 	texture = "gfx/interface/icons/goods_icons/iron.dds"
 	cost = 30
 	category = industrial
 	
-	prestige_factor = 10
+	prestige_factor = 7.5
 }
 
 chemical_reagents = {

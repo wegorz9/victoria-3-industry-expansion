@@ -1521,6 +1521,76 @@ goods_input_iron_ore_add={
 	}
 }
 
+goods_input_alumina_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_input_copper_ore_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_input_lead_ore_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_input_aluminum_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_input_copper_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_alumina_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_copper_ore_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_lead_ore_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_aluminum_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_copper_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
 goods_input_coal_add={
 	decimals=1
 	color=bad

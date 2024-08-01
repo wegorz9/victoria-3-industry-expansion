@@ -381,6 +381,20 @@ bg_iron_mining = {
 
 	can_use_slaves = yes
 }
+bg_aluminum_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_aluminum_mine
+
+	can_use_slaves = yes
+}
+bg_copper_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_copper_mine
+
+	can_use_slaves = yes
+}
 
 bg_lead_mining = {
 	parent_group = bg_mining

@@ -199,7 +199,13 @@ pmg_steelmaking_process = {
 		pm_electric_arc_process
 	}
 }
-
+pmg_steel_alloying= {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_alloying_metal
+		pm_aluminum_alloying
+	}
+}
 pmg_automation_building_steel_mills = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
@@ -427,5 +433,26 @@ pmg_automation_building_rare_metal_refinery = {
 		pm_automation_disabled
 		pm_watertube_boiler_building_rare_metal_refinery
 		pm_rotary_valve_engine_building_rare_metal_refinery
+	}
+}
+
+pmg_chemical_production= {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_basic_chemical_production
+		pm_improved_chemical_production
+		pm_advanced_chemical_production
+		pm_electric_reactors
+	}
+}
+
+pmg_automation_chemical_plant= {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_automation_disabled
+		pm_watertube_boiler_building_chemical_plant
+		pm_rotary_valve_engine_building_chemical_plant
 	}
 }

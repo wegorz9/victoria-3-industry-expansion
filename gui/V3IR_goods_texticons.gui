@@ -12,8 +12,8 @@ texticon = {
 	icon = iron_ore
 	iconsize = {
 		texture = "common/V3IR_good_icons/iron_ore.dds"
-		size = { 40 40 }
-		offset = { 7 7 }
+		size = { 25 25 }
+		offset = { 0 7 }
 		fontsize = 18
 	}
 }
@@ -22,7 +22,7 @@ texticon = {
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/iron.dds"
 		size = { 25 25 }
-		offset = { 7 7 }
+		offset = { 0 7 }
 		fontsize = 18
 	}
 }
@@ -31,7 +31,7 @@ texticon = {
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/iron.dds"
 		size = { 25 25 }
-		offset = { 7 7 }
+		offset = { 0 7 }
 		fontsize = 18
 	}
 }

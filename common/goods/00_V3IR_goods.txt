@@ -34,7 +34,7 @@ iron_ore = {
 	prestige_factor = 5
 }
 alumina = {
-	texture = "common/V3IR_good_icons/iron_ore.dds"
+	texture = "common/V3IR_good_icons/alumina.dds"
 	cost = 15
 	category = industrial
 	
@@ -43,7 +43,7 @@ alumina = {
 }
 
 lead_ore = {
-	texture = "common/V3IR_good_icons/iron_ore.dds"
+	texture = "common/V3IR_good_icons/lead_ore.dds"
 	cost = 15
 	category = industrial
 	
@@ -61,7 +61,7 @@ copper_ore = {
 }
 
 copper = {
-	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
 	cost = 70
 	category = industrial
 	

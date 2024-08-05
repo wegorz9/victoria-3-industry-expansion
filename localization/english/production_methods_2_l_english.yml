@@ -49,7 +49,7 @@
  pm_leaded_glass:0 "Leaded Glass"
  pm_manual_glassblowing:0 "Manual Glassblowing"
 
-  # Chemical Plants
+  # Fertilizer Plants
  pm_leblanc_process:0 "Leblanc Process"
  pm_no_explosives_production:0 "Prioritize Fertilizer Production"
  pm_ammonia-soda_process:0 "Ammonia-soda Process"
@@ -75,3 +75,13 @@
   # Motor Industries
  pmg_automobile_production:0 "Automobile Production"
  pm_automobile_production:0 "Automobile Production"
+
+ #Chemical Plants
+  pmg_chemical_production:0 "Chemical Production Process"
+  pm_basic_chemical_production:0 "Basic Chemical Production"
+  pm_improved_chemical_production:0 "Improved Chemical Production"
+  pm_advanced_chemical_production:0 "Advanced Chemical Production"
+  pm_electric_reactors:0 "Electric Chemical Reactors"
+  pmg_automation_chemical_plant:0 "Automation"
+  pm_watertube_boiler_building_chemical_plant:0 "Watertube Boiler"
+  pm_rotary_valve_engine_building_chemical_plant:0 "Rotary Valve Engine"
